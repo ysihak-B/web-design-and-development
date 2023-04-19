@@ -1,0 +1,137 @@
+.header,body,footer{
+    border: 2px solid;
+    border-collapse: collapse;
+    border-color: black;
+}
+.header{
+    background-color: rgb(142, 99, 243);
+}
+.body{
+    background-color: cyan;
+}
+.footer{
+    background-color: rgb(224, 230, 223);
+}
+.container1{
+    position: absolute;
+    display: flex;
+}
+.container1 a{
+    padding: 0.2em;
+}
+.navigation{
+    position: relative;
+    top: 2em;
+    padding-bottom: 3em;
+    display: flex;
+    justify-content: right;
+}
+.navigation div a{
+    display: block;
+    border: 1px solid;
+    padding: 0.2em;
+    margin: 0.3em;
+    border-radius: 3em;
+    background-color: rgb(255, 136, 0);
+}
+h1 {
+    color: red;
+    text-decoration: green solid underline;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(184, 103, 37);
+    line-height: 1.4em;
+    margin: 0;
+    
+}
+#container2{
+    width: 100%;
+    margin: auto;
+}
+.div-1{
+    background-color: rgb(17, 17, 27);
+    color:rgb(100, 146, 100);
+    border: 10px red solid;
+    border-bottom-width: 5px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 20px;
+}
+.div-1 figure{
+    text-align: center;
+}
+.div-1 img{
+    border-radius: 10px;
+    width: 80%;
+}
+.div-2 table,th,td{
+   border: 1px solid;
+  border-collapse: collapse;
+  padding: 0.5em;
+  margin-left: 0.5em;
+}
+.div-2 table{
+    float: right;
+    margin-right: 100px;
+}
+.field{
+    background-color: rgb(224, 230, 223);
+}
+#container3{
+    display: flex;
+}
+.div-4{
+    padding-left:25px;
+}
+#formdet details{
+    float: right;
+}
+.div-5{
+    padding-left:20px;
+}
+a:hover{
+    color: rgb(218, 85, 85);
+}
+a:active{
+    color: rgb(70, 143, 70);
+}
+
+.div-3 h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.condet{
+    border-color: black;
+}
+.my-form{
+    padding: 20px;
+}
+.my-form p {
+    color: black;
+}
+.my-form .form-group {
+    padding-bottom: 15px;
+    color: black;
+}
+.my-form lebel {
+    display: block;
+}
+.my-form input [type ="text"]{
+    padding:8px;
+    width: 100px;
+} 
+.my-form textarea{
+    padding:8px;
+    width: 100px;
+}
+.button {
+    background-color: gray;
+    color:greenyellow;
+    padding: 10px 15px;
+    border: none;
+}

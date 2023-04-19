@@ -1,0 +1,101 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: 1fr 4fr 2fr;
+    gap: 2px;
+    grid-auto-columns: minmax(100px, auto);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  .wrapper div{
+    padding: 2px;
+  }
+  .header {
+    grid-row: 1;
+    background-color: rgb(103, 103, 161);
+    font-size: auto;
+  }
+  #container1{
+    position: absolute;
+    display: flex;
+  }
+  #container1 a{
+    text-decoration:none;
+    float: right;
+  }
+  #container1 div{
+    margin-left: 30px;
+}
+  .navigation{
+    position: relative;
+    top: 1.8em;
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+  }
+  .navigation div a{
+    display: block;
+    color: black;
+    border: 1px solid;
+    padding: 0.2em;
+    border-radius: 3em;
+    background-color: white;
+    text-decoration: none;
+    float: right;
+}
+  .navigation div a:hover{
+    background-color: red;
+  }
+  
+  .body{
+    grid: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+  }
+  .image{
+    grid-column: 2/1;
+  }
+  .paragraph{
+    grid-column: 2/2;
+  }
+  #profile {
+    position: relative;
+    top: 50px;
+    color: black;
+}
+#profile span{
+    font-size: 2em;
+    color:  red;
+}
+
+  .footer{
+    grid: 3;
+    background-color: black;
+    color: white;
+    font-size: auto;
+  }
+  #container3{
+    display: flex;
+    text-align:left;
+}
+  .box-1 {
+    flex: 1;
+  }
+  .box-2{
+    flex: 1;
+  }
+  .box-3{
+    flex: 2;
+    display: flex;
+  }
+  .box-3 a{
+    text-decoration: none;
+}
+  a:hover{
+    color: rgb(238, 13, 13);
+  }
+  a:active{
+    color: rgb(70, 143, 70);
+  }
+  

@@ -1,0 +1,11 @@
+<h2>Let's work together!!!</h2>
+            <div class="div-2">
+                <img src="C:\Users\isaac\web design and development\images\image1.jpg" height="400" width="200">
+                <div>
+                    <p id="profile">
+                        Hi, I'am <span>Ysihak Bazezew</span>
+                        <br>I am a software engineering student
+                        <br>at Addis Ababa University.
+                        <br>To know more about me visit other pages!!!
+                    </p>
+                </div>
